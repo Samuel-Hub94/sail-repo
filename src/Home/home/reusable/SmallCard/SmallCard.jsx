@@ -1,3 +1,4 @@
+// src/Home/home/SmallCard.js
 import React from 'react';
 import './smallCards.css';
 

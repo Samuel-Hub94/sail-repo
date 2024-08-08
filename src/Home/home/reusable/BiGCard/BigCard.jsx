@@ -1,3 +1,4 @@
+// src/Home/home/BigCard.js
 import React from 'react';
 import './BCard.css';
 import { getPlatformClass, getImgSrc, getBorderColor } from '../../utils';
@@ -19,7 +20,7 @@ const BigCard = ({ platform, userName, followNum, followLabel, todayNum }) => {
     <div className={`big-card ${platformClass}`} style={cardStyle}>
       <div className="big-card-header">
         <div className='header-img'> 
-          <img src={imgSrc} alt={`${platform} logo`} className="platform-logo" />
+          <img src={imgSrc} alt={`${platform} icon`} className="platform-logo" />
         </div>  
         <div className='header-text'>
           <h3>@{userName}</h3>
