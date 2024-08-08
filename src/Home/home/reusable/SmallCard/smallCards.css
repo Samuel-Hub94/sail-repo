@@ -1,0 +1,46 @@
+.small-card {
+    background-color: var(--Card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top-row{
+    padding-bottom: 10px;
+}
+
+.top-row small {
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+}
+
+.bottom-row h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: var(--primary-text-color)
+}
+
+.platform-logo {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.bottom-row nav {
+    font-size: 8px;
+}
