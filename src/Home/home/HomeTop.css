@@ -1,0 +1,29 @@
+.home-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--background-color);
+
+    
+    
+}
+
+@media (max-width: 500px) {
+  .home-top {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+@media (min-width: 1440px) {
+  .home-top {
+    flex-direction: row;
+    padding: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+
+
+/* Mobile Styles */
+@media (max-width: 1440px) {
+
+ 
+}
+
+/* Desktop Styles */
+@media (min-width: 500px) {
+    .App-header{
+        display: flex;
+        background-color: blue;
+    }  
+
+  
+}

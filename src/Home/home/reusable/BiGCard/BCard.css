@@ -1,0 +1,117 @@
+.big-card {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px; /* Adjust as necessary */  
+  background-color: var(--Card-bg);
+  position: relative; /* Added for gradient border effect */
+
+  transition: background-color 1.5s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.big-card.instagram-class::before {
+  content: "";
+  height: 5px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: var(--gradient-top-border);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.big-card:hover {
+  background-color: var(--Card-bg-hover); /* Change background color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+.big-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-card-header img {
+  width: 13px;
+  height: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+
+.header-text {
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.big-card-header h3 {
+  font-weight: lighter;
+  font-size: small;
+  font-weight: bold;
+  margin: 0;
+  color: var(--secondary-text-color); /* Color for @userName */
+}
+
+.facebook-class {
+  border-top: 4px solid #3b5998; /* Facebook blue */
+  border-left: 2px transparent;
+  border-right: 2px transparent;
+  border-bottom: 2px transparent;
+}
+
+.twitter-class {
+  border-top: 4px solid #1DA1F2; /* Twitter blue */
+  border-left: 2px transparent;
+  border-right: 2px transparent;
+  border-bottom: 2px transparent;
+}
+
+.youtube-class {
+  border-top: 4px solid #FF0000; /* YouTube red */
+  border-left: 2px transparent;
+  border-right: 2px transparent;
+  border-bottom: 2px transparent;
+}
+
+.big-card-body h3 {
+  margin: 10px 0;
+  color: var(--primary-text-color);
+  font-size: xx-large;
+}
+
+.big-card-body p {
+  margin: 5px 0;
+  font-size: small;
+  font-weight: 100;
+  margin-bottom: 15px;
+  color: var(--secondary-text-color);
+  letter-spacing: 2px;
+}
+
+.arrow {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.arrow-up {
+  color: rgb(67, 146, 120);
+}
+
+.arrow-down {
+  color: rgb(201, 65, 65);
+}
+
+.arrow::before {
+  content: '▲ '; /* Up arrow */
+}
+
+.arrow-down::before {
+  content: '▼ '; /* Down arrow */
+}
