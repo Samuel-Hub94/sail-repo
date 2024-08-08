@@ -1,3 +1,10 @@
+// src/Home/home/utils.js
+
+import facebookIcon from './images/icon-facebook.svg';
+import instagramIcon from './images/icon-instagram.svg';
+import twitterIcon from './images/icon-twitter.svg';
+import youtubeIcon from './images/icon-youtube.svg';
+
 export const getBorderColor = (platform) => {
     switch (platform.toLowerCase()) {
         case 'facebook':
@@ -14,15 +21,15 @@ export const getBorderColor = (platform) => {
 export const getImgSrc = (platform) => {
     switch (platform.toLowerCase()) {
         case 'facebook':
-            return 'src/Home/home/images/icon-facebook.svg'; // Adjust the path
+            return facebookIcon;
         case 'instagram':
-            return 'src/Home/home/images/icon-instagram.svg'; // Adjust the path
+            return instagramIcon;
         case 'twitter':
-            return 'src/Home/home/images/icon-twitter.svg'; // Adjust the path
+            return twitterIcon;
         case 'youtube':
-            return 'src/Home/home/images/icon-youtube.svg'; // Adjust the path
+            return youtubeIcon;
         default:
-            return 'src/Home/home/images/icon-facebook.svg'; // Adjust the path
+            return facebookIcon;
     }
 };
 
