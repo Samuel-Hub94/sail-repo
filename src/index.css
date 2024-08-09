@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,11 +20,11 @@
 }
 
 [data-theme="Dark"] {
-  --background-color: hsl(230, 17%, 14%); /* Almost black */
-  --foreground-color: hsl(232, 19%, 15%); /* Light blue */
+  --background-color: hsl(234, 14%, 14%); /* Almost black */
+  --foreground-color: hsl(231, 15%, 18%); /* Light blue */
   --Card-bg: hsl(228, 28%, 20%) ;
   --Card-bg-hover: hsl(228, 23%, 25%) ;
-  --primary-text-color: hsl(227, 71%, 93%); /* Light gray */
+  --primary-text-color: hsl(228, 33%, 97%); /* Light gray */
   --secondary-text-color: hsl(0, 8%, 52%); /* Dark gray */
   --toggle-bg: #86e09a ; /* Dark blue-gray */
   --toggle-fg: #3b1c6e; /* Bright blue */

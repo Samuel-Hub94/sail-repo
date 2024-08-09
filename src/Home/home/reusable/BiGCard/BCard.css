@@ -83,7 +83,7 @@
 .big-card-body h3 {
   margin: 10px 0;
   color: var(--primary-text-color);
-  font-size: xx-large;
+  font-size: 60px;
 }
 
 .big-card-body p {
@@ -97,7 +97,7 @@
 
 .arrow {
   font-size: 8px;
-  font-weight: bold;
+  font-weight:bolder;
 }
 
 .arrow-up {

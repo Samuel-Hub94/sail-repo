@@ -1,6 +1,6 @@
 import React from 'react';
 import { Toggle } from '../components/Toggle';
-
+import "./Header.css";
 const Header = ({ isDark, setIsDark }) => {
   return (
     <div className='App-header'>

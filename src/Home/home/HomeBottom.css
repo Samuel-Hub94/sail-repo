@@ -1,7 +1,6 @@
 .home-bottom {
-    background-color: var(--background-color);
+    background-color:var(--background-color);
     color: var(--text-color);
-    padding: 10px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -12,7 +11,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -20,7 +19,7 @@
 }
 
 .overview {
-    width: 70%;
+    width: 75%;
     text-align: left;
     color: var(--secondary-text-color);
 }
@@ -33,7 +32,7 @@
 .cards {
     width: 80%;
     background-color: var(--background-color);
-    padding-bottom: 10px;
+    padding-bottom: 100px;
     
     
 }
