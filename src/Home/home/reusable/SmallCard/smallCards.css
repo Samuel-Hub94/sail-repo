@@ -1,10 +1,9 @@
 .small-card {
     background-color: var(--Card-bg);
     padding: 20px;
-    border-radius: 10px;
-    width: 180px;
-    height: 100px;
-    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -24,20 +23,20 @@
 }
 
 .top-row small {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: bold;
     color: var(--secondary-text-color);
 }
 
 .bottom-row h1 {
-    font-size: 24px;
+    font-size: 35px;
     margin: 10px 0;
     color: var(--primary-text-color)
 }
 
 .platform-logo {
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     margin-left: 5px;
 }
 

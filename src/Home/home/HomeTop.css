@@ -3,27 +3,28 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  padding: 20px;
-  background-color: var(--background-color);
-
-    
+  width: 100%; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:var(--background-color) 
     
 }
 
 @media (max-width: 500px) {
+  
   .home-top {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    
-  }
+    padding-top: 10px;
+    background-color: var(--background-color);
+
+    }
 }
 
 @media (min-width: 1440px) {
   .home-top {
-    flex-direction: row;
-    padding: 40px;
+    
   }
 }
